@@ -57,7 +57,7 @@ export default function Sidebar() {
         </div>
         <h1 className="text-lg font-bold text-gray-900">Smart Aquaculture</h1>
       </div>
-      <nav className="text-sm space-y-1 mt-[56px]">
+      <nav className="text-sm space-y-1 mt-[45px]">
         <p className="text-black font-semibold text-lg px-2 my-4">Chart</p>
         <ul className="space-y-4">
           {navItems.map((item) => {
