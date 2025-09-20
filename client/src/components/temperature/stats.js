@@ -81,7 +81,7 @@ export default function TempStats() {
               <Line
                 type="monotone"
                 dataKey="temp"
-                stroke="#000"
+                stroke="#007AFF"
                 strokeWidth={2}
                 dot={false}
               />

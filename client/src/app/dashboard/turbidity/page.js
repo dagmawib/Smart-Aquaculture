@@ -1,10 +1,10 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import Notifications from "@/components/notifications/notifications";
+import Turbidity from "@/components/turbidity/turbidity";
 
-export default function NotificationsPage() {
+export default function TurbidityPage() {
   return (
-    <div className="p-6 min-h-screen">
+    <div className="p-6 min-h-screen bg-[#f6f6f6]">
       <div
         className="rounded-xl p-4 text-gray-800"
         style={{
@@ -66,7 +66,7 @@ export default function NotificationsPage() {
           </div>
         </div>
       </div>
-      <Notifications />
+      <Turbidity />
     </div>
   );
 }

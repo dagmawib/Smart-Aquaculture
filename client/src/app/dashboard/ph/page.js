@@ -1,8 +1,8 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import Notifications from "@/components/notifications/notifications";
+import PHLevel from "@/components/ph/ph-level";
 
-export default function NotificationsPage() {
+export default function PHPage() {
   return (
     <div className="p-6 min-h-screen">
       <div
@@ -66,7 +66,7 @@ export default function NotificationsPage() {
           </div>
         </div>
       </div>
-      <Notifications />
+        <PHLevel />
     </div>
   );
 }

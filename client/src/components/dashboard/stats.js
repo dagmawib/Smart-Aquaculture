@@ -65,7 +65,7 @@ const feedingData = [
   { hour: "11", value: 80 },
 ];
 
-export default function Stats() {
+export default function AStats() {
   return (
     <div className="space-y-6 py-6">
       {/* Top Cards */}

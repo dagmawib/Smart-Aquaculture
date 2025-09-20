@@ -1,9 +1,8 @@
-import Image from "next/image";
 import { Icon } from "@iconify/react";
 
 const Navbar = () => {
   return (
-    <nav className="w-full px-6 py-4 flex justify-between items-center bg-[#f6f7f9]">
+    <nav className="w-full px-6 py-4 flex justify-between items-center bg-[#f6f6f6] border-b border-gray-200">
       {/* Left: Title and Menu Icon */}
       <div className="flex items-center space-x-3">
         <h1 className="text-xl font-bold text-gray-800">Dashboard</h1>
