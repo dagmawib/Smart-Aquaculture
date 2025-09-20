@@ -114,7 +114,7 @@ export default function TurbidityPage() {
       </div>
 
       {/* Recent Readings Table */}
-      <div className=" p-4 mt-6">
+      <div className=" py-4 mt-6">
         <h3 className="font-semibold mb-4">Recent Turbidity Readings</h3>
         <div className="overflow-x-auto bg-white border border-gray-200 rounded-lg">
           <table className="w-full text-sm text-left">
