@@ -1,8 +1,8 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-import DiseasePredictionContent from "@/components/disease/disease";
+import FeedingContent from "@/components/feeding/feeding";
 
-export default function DiseasePrediction() {
+export default function Feeding() {
   return (
     <div className="p-6 min-h-screen">
       <div
@@ -66,8 +66,7 @@ export default function DiseasePrediction() {
           </div>
         </div>
       </div>
-
-      <DiseasePredictionContent />
+        <FeedingContent />
     </div>
   );
 }
